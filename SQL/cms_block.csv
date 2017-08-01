@@ -1,0 +1,256 @@
+"1","Footer Links","footer_links","<ul>
+<li><a href=""{{store direct_url=""about-magento-demo-store""}}"">About Us</a></li>
+<li><a href=""{{store direct_url=""customer-service""}}"">Customer Service</a></li>
+<li class=""last privacy""><a href=""{{store direct_url=""privacy-policy-cookie-restriction-mode""}}"">Privacy Policy</a></li>
+</ul>","2017-07-20 21:49:49","2017-07-21 02:34:18","0"
+"2","Footer Links Company","footer_links_company","<div class=""links"">
+<div class=""block-title""><strong><span>Company</span></strong></div>
+<ul>
+<li><a href=""{{store url=""""}}about-magento-demo-store/"">About Us</a></li>
+<li><a href=""{{store url=""""}}contacts/"">Contact Us</a></li>
+<li><a href=""{{store url=""""}}customer-service/"">Customer Service</a></li>
+<li><a href=""{{store url=""""}}privacy-policy-cookie-restriction-mode/"">Privacy Policy</a></li>
+</ul>
+</div>","2017-07-20 21:49:49","2017-07-21 02:10:23","0"
+"3","Cookie restriction notice","cookie_restriction_notice_block","<p>This website requires cookies to provide all of its features. For more information on what data is contained in the cookies, please see our <a href=""{{store direct_url=""privacy-policy-cookie-restriction-mode""}}"">Privacy Policy page</a>. To accept cookies from this site, please click the Allow button below.</p>","2017-07-20 21:49:49","2017-07-22 19:54:49","1"
+"5","Kits Asturia","banner_block","<div class=""banner-block page"">
+<div class=""container"">
+<div class=""row"">
+<div class=""span4"">
+<div class=""banner banner1""><a href=""http://poligrill.com.br/index.php/poligrill-simples.html""> <img height=""300"" src=""{{media url=""wysiwyg/Capa/Banners/vps.png""}}"" width=""312"" /></a>
+<div class=""banner-text""><span class=""banner-title"">Modulos Simples</span></div>
+</div>
+</div>
+<div class=""span4"">
+<div class=""banner banner2""><a href=""http://poligrill.com.br/index.php/poligrill-master.html""> <img height=""300"" src=""{{media url=""wysiwyg/Capa/Banners/Web-Developer.png""}}"" width=""312"" /></a>
+<div class=""banner-text""><span class=""banner-title"">KIts Completos</span></div>
+</div>
+</div>
+<div class=""span4"">
+<div class=""banner banner3""><a href=""http://poligrill.com.br/index.php/acessorios.html""> <img height=""300"" src=""{{media url=""wysiwyg/Capa/Banners/web-commerce-001.png""}}"" width=""300"" /></a>
+<div class=""banner-text""><span class=""banner-title"">Acess&oacute;rios</span></div>
+</div>
+</div>
+</div>
+</div>
+</div>","2015-07-28 11:18:56","2017-07-22 19:59:53","0"
+"8","Contatos","contact_block","<div class=""contact_block"" style=""text-align: center;""><!-- ####### table ######### -->
+<div style=""display: inline-block;"">
+<table border=""0"" style=""border: 0px solid #595959; width: 100%; margin: 0px auto;"">
+<tbody>
+<tr>
+<td style=""padding: 10px; margin: auto; text-align: left;""><span style=""color: #222;""><span style=""font-size: medium;""><img alt="""" src=""{{media url=""wysiwyg/Capa/Email.png""}}"" style=""float: left; margin-left: 2px; margin-right: 2px;"" width=""20"" /><span style=""font-size: small;""><strong>&nbsp;contato@asturiasemijoias.com.br</strong></span></span></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<span style=""font-size: small;""><!-- ####### table ######### --></span>
+<div style=""display: inline-block;"">
+<table border=""0"" style=""border: 0px solid #595959; width: 100%; margin: 0px auto;"">
+<tbody>
+<tr>
+<td style=""padding: 10px; margin: auto; text-align: left;""><span style=""color: #222; font-size: small;""><strong><img alt="""" src=""{{media url=""wysiwyg/Capa/whatsapp.png""}}"" style=""float: left; margin-left: 2px; margin-right: 2px;"" width=""20"" />&nbsp;<span style=""display: inline-block;"">(19) 9 9999-9999</span></strong>&nbsp;<br /></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- ####### table ######### -->
+<div style=""display: inline-block;"">
+<table border=""0"" style=""border: 0px solid #595959; width: 100%; margin: 0px auto;"">
+<tbody>
+<tr>
+<td style=""padding: 10px; margin: auto; text-align: left;""><span style=""color: #222;""><span style=""font-size: medium;""><img alt="""" src=""{{media url=""wysiwyg/Capa/telefone_1.png""}}"" style=""float: left; margin-left: 2px; margin-right: 2px;"" width=""20"" /><span style=""font-size: small;""><strong>&nbsp;<span style=""display: inline-block;"">(19) 0000-0000</span></strong></span></span></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>","2015-11-29 17:30:55","2017-07-22 20:00:11","1"
+"9","Contato","contact_form_block","<div style=""width: 100%;"">
+<div style=""width: 60%; display: inline-block; min-width: 300px; margin: 1%; padding: 10px;""><iframe height=""450"" src=""https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83361.96830964634!2d-47.45927932947489!3d-22.57486473016198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c88055b6df0dc3%3A0x1b0ef5f339809ecd!2sLimeira%2C+SP!5e0!3m2!1spt-BR!2sbr!4v1471607106458"" style=""border: 0;"" width=""100%""></iframe>
+<div style=""padding: 10px; background: #ededed;"">
+<div style=""width: 20%; border-right: 1px solid #ddd; display: inline-block;"">
+<p style=""margin: 0; background: #ededed;""><strong>Sede</strong>:&nbsp;Limeira - SP</p>
+</div>
+<div style=""width: 70%; display: inline-block; padding: 10px; vertical-align: top; text-align: left;"">Telefones:&nbsp;
+<div>
+<table border=""0"">
+<tbody>
+<tr>
+<td style=""text-align: left;""><span><strong><img alt="""" src=""http://poligrill.com.br/media/wysiwyg/Capa/whatsapp.png"" style=""float: left;"" width=""20"" />&nbsp;<span>(19) 9 9999-9999</span></strong>&nbsp;<br /></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<table border=""0"">
+<tbody>
+<tr>
+<td style=""text-align: left;""><span><span><img alt="""" src=""http://poligrill.com.br/media/wysiwyg/Capa/telefone_1.png"" style=""float: left;"" width=""20"" /><span><strong>&nbsp;<span>(19) 0000-0000</span></strong></span></span></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div style=""width: 36%; display: inline-block; min-width: 300px; margin: 1%; padding: 10px; background: #ededed; position: relative; float: right;""><!--############## codigo formulario ############ --> {{block type=""core/template"" name=""contactForm"" form_action=""/contacts/index/post"" template=""contacts/form.phtml""}} <!-- ## fim do codigo do formulario ##########  --><hr />
+<p style=""text-align: center;"">&nbsp;De segunda a sexta:&nbsp;9h &agrave;s 12h e das 13h &agrave;s 17h</p>
+</div>
+</div>","2015-12-31 03:44:17","2017-07-22 20:00:38","1"
+"11","slideshow","slider_1","<div class=""slideshow-container"">
+<ul class=""slideshow"">
+<li><img alt="""" src=""{{media url=""wysiwyg/Capa/slides/banners_site_1.jpg""}}"" /></li>
+<li><img alt="""" src=""{{media url=""wysiwyg/Capa/slides/banners_site_2.jpg""}}"" /></li>
+<li><img alt="""" src=""{{media url=""wysiwyg/Capa/slides/banners_site_3.jpg""}}"" /></li>
+<li><img alt="""" src=""{{media url=""wysiwyg/Capa/slides/banners_site_4.jpg""}}"" /></li>
+<li><img alt="""" src=""{{media url=""wysiwyg/Capa/slides/banners_site_5.jpg""}}"" /></li>
+
+</ul>
+<div class=""slideshow-pager"">&nbsp;</div>
+<span class=""slideshow-prev"">&nbsp;</span> <span class=""slideshow-next"">&nbsp;</span></div>","2016-06-19 17:27:02","2017-07-22 20:22:40","1"
+"12","afterbar","afterbar","<p><img alt="""" src=""{{media url=""wysiwyg/Capa/afterbarBg.png""}}"" style=""display: block; margin-left: auto; margin-right: auto; width: 100%;"" /></p>","2016-06-19 22:04:17","2017-07-22 20:01:06","1"
+"16","Pagseguro Sidebar","pgto-left","<p><img alt="""" src=""{{media url=""wysiwyg/Capa/banner-pagseguro4.png""}}"" width=""100%"" /></p>","2016-07-19 22:24:12","2017-07-22 20:01:13","1"
+"22","facebook fanpage","fb_fanpage","<div class=""links"">
+<div class=""block-title""><strong><span>Siga no Facebook</span></strong></div>
+<div class=""fb-page"" style=""text-align: center;"" data-href=""https://www.facebook.com/mallbrasil/"" data-small-header=""false"" data-width=""250px"" data-adapt-container-width=""false"" data-hide-cover=""false"" data-show-facepile=""true"">
+<blockquote cite=""https://www.facebook.com/mallbrasil/"" class=""fb-xfbml-parse-ignore""></blockquote>
+</div>
+</div>","2016-08-24 20:20:29","2017-07-22 20:02:20","1"
+"23","Redes Sociais Capa","social_capa","<div style=""width: 90%; margin: 0 auto;""><!-- ####### Block ####### -->
+<div style=""display: inline-block; width: 310px; padding: 20px;"">
+<div class=""fb-page"" data-href=""https://www.facebook.com/poligrilloficial/"" data-tabs=""messages,timeline,events"" data-small-header=""false"" data-adapt-container-width=""true"" data-hide-cover=""false"" data-show-facepile=""true"">
+<blockquote class=""fb-xfbml-parse-ignore"" cite=""https://www.facebook.com/poligrilloficial/""><a href=""https://www.facebook.com/poligrilloficial/"">PoliGrill</a></blockquote>
+</div>
+</div>
+<!-- ####### Block ####### -->
+<div style=""display: inline-block; width: 540px; padding: 20px;"">&nbsp;</div>
+</div>","2016-08-25 16:32:06","2016-09-21 02:54:38","0"
+"25","Atendimento","footer_company","<div class=""links"">
+<div class=""block-title""><strong><span>Atendimento</span></strong></div>
+<!-- ####### table ######### -->
+<div style=""display: block;"">
+<table border=""0"" style=""border: 0px solid #595959; width: 100%; margin: 0px auto;"">
+<tbody>
+<tr>
+<td style=""padding: 5px 10px 0; margin: auto; text-align: left;""><span style=""color: #c0c0c0;""><span style=""font-size: medium;""><img alt="""" src=""{{media url=""wysiwyg/Capa/Email.png""}}"" style=""float: left; margin-left: 2px; margin-right: 2px;"" width=""20"" /><span style=""font-size: x-small;""><strong>&nbsp;contato@mallbrasil.com.br</strong></span></span></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- ####### table ######### -->
+<div style=""display: block;"">
+<table border=""0"" style=""border: 0px solid #595959; width: 100%; margin: 0px auto;"">
+<tbody>
+<tr>
+<td style=""padding: 0 10px; margin: auto; text-align: left;""><span style=""color: #c0c0c0; font-size: small;""><span style=""font-size: x-small;""><strong><img alt="""" src=""{{media url=""wysiwyg/Capa/whatsapp.png""}}"" style=""float: left; margin-left: 2px; margin-right: 2px;"" width=""20"" /></strong><span style=""font-size: small;"">&nbsp;<span style=""display: inline-block;"">(19) 9 9999-9999</span>&nbsp;</span></span><br /></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- ####### table ######### -->
+<div style=""display: block;"">
+<table border=""0"" style=""border: 0px solid #595959; width: 100%; margin: 0px auto;"">
+<tbody>
+<tr>
+<td style=""padding: 0 10px; margin: auto; text-align: left;""><span style=""color: #c0c0c0; font-size: small;""><img alt="""" src=""{{media url=""wysiwyg/Capa/telefone_1.png""}}"" style=""float: left; margin-left: 2px; margin-right: 2px;"" width=""20"" />&nbsp;<span style=""display: inline-block;"">(19) 0000-0000</span></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- ####### table ######### -->
+<div style=""display: block;"">
+<table border=""0"" style=""border: 0px solid #595959; width: 100%; margin: 0px auto;"">
+<tbody>
+<tr>
+<td style=""padding: 0 10px; margin: auto; text-align: left;""><span style=""color: #c0c0c0; font-size: small;""><img alt="""" src=""{{media url=""wysiwyg/Capa/layout/localizacao.png""}}"" style=""float: left; margin-left: 2px; margin-right: 2px;"" width=""25"" />&nbsp;<span style=""display: inline-block;"">Limeira/SP - Brasil</span></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<br />
+<div class=""block-title""><strong><span>Empresa</span></strong></div>
+<ul>
+<li><a href=""{{store url=""""}}sobre/"">Sobre a MallBrasil</a></li>
+<li><a href=""{{store url=""""}}contato.html/"">Entre em contato</a></li>
+<li><a href=""{{store url=""""}}sac/"">Servi&ccedil;o ao Cliente</a></li>
+<li><a href=""{{store url=""""}}politica-de-privacidade/"">Privacidade e Seguran&ccedil;a</a></li>
+</ul>
+</div>","2016-09-21 02:12:39","2017-07-22 20:03:07","1"
+"27","Video Apresentação","video_block","<div style=""padding: 2%; background: url('http://poligrill.com.br/media/wysiwyg/Capa/layout/bkg_youtube.png') #212121; background-repeat: no-repeat; margin: 0 auto; background-size: cover; background-position: center;"">
+<table style=""margin-left: auto; margin-right: auto; border: none; width: 100%; max-width: 580px;"">
+<tbody>
+<tr>
+<td><iframe height=""350"" src=""http://www.youtube.com/embed/kCLuRIalE40"" style=""display: block; margin-left: auto; margin-right: auto; border: none; max-width: 580px;"" width=""100%""></iframe></td>
+</tr>
+<tr>
+<td style=""text-align: right; max-width: 580px;"">
+<script src=""https://apis.google.com/js/platform.js"" type=""text/javascript""></script>
+<div class=""g-ytsubscribe"" style=""text-align: right;"" data-channelid=""UCXJhUytHkl2CXn_2LSVO2PA"" data-layout=""default"" data-theme=""dark"" data-count=""default"">Inscrever-se</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>","2017-07-21 01:21:15","2017-07-22 20:07:41","0"
+"28","pagseguro","pagseguro","<div class=""links""><!-- #### Pagseguro ### -->
+<div class=""block-title""><strong><span>Pagamento seguro</span></strong></div>
+<p><img alt="""" src=""{{media url=""wysiwyg/Capa/layout/bandeiras-pgto2.png""}}"" style=""display: block; margin-left: auto; margin-right: auto;"" width=""250"" /></p>
+<br /> <!-- #### Frete Correios #### -->
+<div class=""block-title""><strong><span>Formas de Envio</span></strong></div>
+<p><img alt="""" src=""{{media url=""wysiwyg/Capa/layout/correios.png""}}"" style=""display: block; margin-left: auto; margin-right: auto;"" width=""250"" /></p>
+</div>","2017-07-21 01:54:31","2017-07-22 20:03:27","1"
+"29","Slides","slider_2","<p>
+<script src=""{{skin url='js/camera.js'}}"" type=""text/javascript"">// <![CDATA[
+
+// ]]></script>
+<script type=""text/javascript"">// <![CDATA[
+jQuery(function(){
+    jQuery('#camera_wrap').camera({
+        alignmen: 'topCenter',
+        height: '23.0%',
+        minHeight: '134px',
+        loader : false,
+        pagination: true,
+        fx: 'curtainTopLeft',
+        navigationHover:false,
+        navigation :false, 
+        pagination:true,
+        thumbnails: false,
+        playPause: false
+    });
+});
+// ]]></script>
+</p>
+<div class=""fluid_container_wrap"">
+<div class=""fluid_container"">
+<div class=""camera_wrap camera_orange_skin"" id=""camera_wrap""><!-- #### slide 1 #### -->
+<div data-link=""http://poligrill.com.br/#"" data-src=""{{media url=""wysiwyg/Capa/slides/banners_site_1.jpg""}}"">&nbsp;</div>
+<p><!-- #### slide 2 #### --></p>
+<div data-link=""http://poligrill.com.br/#"" data-src=""{{media url=""wysiwyg/Capa/slides/banners_site_2.jpg""}}"">&nbsp;</div>
+<p><!-- #### slide 3 #### --></p>
+<div data-link=""http://poligrill.com.br/#"" data-src=""{{media url=""wysiwyg/Capa/slides/banners_site_3.jpg""}}"">&nbsp;</div>
+<p><!-- #### slide 4 #### --></p>
+<div data-link=""http://poligrill.com.br/#"" data-src=""{{media url=""wysiwyg/Capa/slides/banners_site_4.jpg""}}"">&nbsp;</div>
+<p><!-- #### slide 5 #### --></p>
+<div data-link=""http://poligrill.com.br/index.php/#"" data-src=""{{media url=""wysiwyg/Capa/slides/banners_site_5.jpg""}}"">&nbsp;</div>
+<p><!-- #### slide 6 #### --></p>
+<div data-link=""http://poligrill.com.br/#"" data-src=""{{media url=""wysiwyg/Capa/slides/banners_site_6.jpg""}}"">&nbsp;</div>
+</div>
+</div>
+</div>","2017-07-21 01:56:13","2017-07-22 20:03:47","1"
+"30","selos","selo","<div class=""block block-subscribe"">
+<div class=""block-title""><strong><span>Seguran&ccedil;a e confian&ccedil;a</span></strong></div>
+<br /> <!-- ####### table ######### -->
+<div style=""display: block;"">
+<table border=""0"" style=""border: 0px solid #595959; width: 100%; margin: 0px auto;"">
+<tbody>
+<tr>
+<td style=""padding: 5px 10px 0; margin: auto; text-align: left; min-width: 150px;"">
+<p><span style=""color: #c0c0c0;""><span style=""font-size: medium;""><img alt="""" src=""{{media url=""wysiwyg/Capa/layout/banner-pagseguro-01-011.png""}}"" style=""margin-left: auto; margin-right: auto; display: block;"" width=""150"" /></span></span></p>
+</td>
+<td style=""padding: 5px 10px 0; margin: auto; text-align: left; min-width: 150px;""><img alt="""" height=""50"" src=""{{media url=""wysiwyg/Capa/layout/selo_produto_nacional.png""}}"" style=""display: block; margin-left: auto; margin-right: auto;"" width=""41"" /></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>","2017-07-21 01:57:07","2017-07-22 20:06:46","1"
