@@ -13,21 +13,21 @@
 </ul>
 </div>","2017-07-20 21:49:49","2017-07-21 02:10:23","0"
 "3","Cookie restriction notice","cookie_restriction_notice_block","<p>This website requires cookies to provide all of its features. For more information on what data is contained in the cookies, please see our <a href=""{{store direct_url=""privacy-policy-cookie-restriction-mode""}}"">Privacy Policy page</a>. To accept cookies from this site, please click the Allow button below.</p>","2017-07-20 21:49:49","2017-07-22 19:54:49","1"
-"5","Kits Asturia","banner_block","<div class=""banner-block page"">
+"5","Kits ","banner_block","<div class=""banner-block page"">
 <div class=""container"">
 <div class=""row"">
 <div class=""span4"">
-<div class=""banner banner1""><a href=""http://poligrill.com.br/index.php/poligrill-simples.html""> <img height=""300"" src=""{{media url=""wysiwyg/Capa/Banners/vps.png""}}"" width=""312"" /></a>
+<div class=""banner banner1""><a href=""http://mallbrasil.com.br/""> <img height=""300"" src=""{{media url=""wysiwyg/Capa/Banners/vps.png""}}"" width=""312"" /></a>
 <div class=""banner-text""><span class=""banner-title"">Modulos Simples</span></div>
 </div>
 </div>
 <div class=""span4"">
-<div class=""banner banner2""><a href=""http://poligrill.com.br/index.php/poligrill-master.html""> <img height=""300"" src=""{{media url=""wysiwyg/Capa/Banners/Web-Developer.png""}}"" width=""312"" /></a>
+<div class=""banner banner2""><a href=""http://mallbrasil.com.br/""> <img height=""300"" src=""{{media url=""wysiwyg/Capa/Banners/Web-Developer.png""}}"" width=""312"" /></a>
 <div class=""banner-text""><span class=""banner-title"">KIts Completos</span></div>
 </div>
 </div>
 <div class=""span4"">
-<div class=""banner banner3""><a href=""http://poligrill.com.br/index.php/acessorios.html""> <img height=""300"" src=""{{media url=""wysiwyg/Capa/Banners/web-commerce-001.png""}}"" width=""300"" /></a>
+<div class=""banner banner3""><a href=""http://mallbrasil.com.br/""> <img height=""300"" src=""{{media url=""wysiwyg/Capa/Banners/web-commerce-001.png""}}"" width=""300"" /></a>
 <div class=""banner-text""><span class=""banner-title"">Acess&oacute;rios</span></div>
 </div>
 </div>
@@ -76,7 +76,7 @@
 <table border=""0"">
 <tbody>
 <tr>
-<td style=""text-align: left;""><span><strong><img alt="""" src=""http://poligrill.com.br/media/wysiwyg/Capa/whatsapp.png"" style=""float: left;"" width=""20"" />&nbsp;<span>(19) 9 9999-9999</span></strong>&nbsp;<br /></span></td>
+<td style=""text-align: left;""><span><strong><img alt="""" src=""http://mallbrasil.com.br/media/wysiwyg/Capa/whatsapp.png"" style=""float: left;"" width=""20"" />&nbsp;<span>(19) 9 9999-9999</span></strong>&nbsp;<br /></span></td>
 </tr>
 </tbody>
 </table>
@@ -85,7 +85,7 @@
 <table border=""0"">
 <tbody>
 <tr>
-<td style=""text-align: left;""><span><span><img alt="""" src=""http://poligrill.com.br/media/wysiwyg/Capa/telefone_1.png"" style=""float: left;"" width=""20"" /><span><strong>&nbsp;<span>(19) 0000-0000</span></strong></span></span></span></td>
+<td style=""text-align: left;""><span><span><img alt="""" src=""http://mallbrasil.com.br/media/wysiwyg/Capa/telefone_1.png"" style=""float: left;"" width=""20"" /><span><strong>&nbsp;<span>(19) 0000-0000</span></strong></span></span></span></td>
 </tr>
 </tbody>
 </table>
@@ -177,7 +177,7 @@
 <li><a href=""{{store url=""""}}politica-de-privacidade/"">Privacidade e Seguran&ccedil;a</a></li>
 </ul>
 </div>","2016-09-21 02:12:39","2017-07-22 20:03:07","1"
-"27","Video Apresentação","video_block","<div style=""padding: 2%; background: url('http://poligrill.com.br/media/wysiwyg/Capa/layout/bkg_youtube.png') #212121; background-repeat: no-repeat; margin: 0 auto; background-size: cover; background-position: center;"">
+"27","Video Apresentação","video_block","<div style=""padding: 2%; background: url('http://mallbrasil.com.br/media/wysiwyg/Capa/layout/bkg_youtube.png') #212121; background-repeat: no-repeat; margin: 0 auto; background-size: cover; background-position: center;"">
 <table style=""margin-left: auto; margin-right: auto; border: none; width: 100%; max-width: 580px;"">
 <tbody>
 <tr>
@@ -224,17 +224,17 @@ jQuery(function(){
 <div class=""fluid_container_wrap"">
 <div class=""fluid_container"">
 <div class=""camera_wrap camera_orange_skin"" id=""camera_wrap""><!-- #### slide 1 #### -->
-<div data-link=""http://poligrill.com.br/#"" data-src=""{{media url=""wysiwyg/Capa/slides/banners_site_1.jpg""}}"">&nbsp;</div>
+<div data-link=""http://mallbrasil.com.br/#"" data-src=""{{media url=""wysiwyg/Capa/slides/banners_site_1.jpg""}}"">&nbsp;</div>
 <p><!-- #### slide 2 #### --></p>
-<div data-link=""http://poligrill.com.br/#"" data-src=""{{media url=""wysiwyg/Capa/slides/banners_site_2.jpg""}}"">&nbsp;</div>
+<div data-link=""http://mallbrasil.com.br/#"" data-src=""{{media url=""wysiwyg/Capa/slides/banners_site_2.jpg""}}"">&nbsp;</div>
 <p><!-- #### slide 3 #### --></p>
-<div data-link=""http://poligrill.com.br/#"" data-src=""{{media url=""wysiwyg/Capa/slides/banners_site_3.jpg""}}"">&nbsp;</div>
+<div data-link=""http://mallbrasil.com.br/#"" data-src=""{{media url=""wysiwyg/Capa/slides/banners_site_3.jpg""}}"">&nbsp;</div>
 <p><!-- #### slide 4 #### --></p>
-<div data-link=""http://poligrill.com.br/#"" data-src=""{{media url=""wysiwyg/Capa/slides/banners_site_4.jpg""}}"">&nbsp;</div>
+<div data-link=""http://mallbrasil.com.br/#"" data-src=""{{media url=""wysiwyg/Capa/slides/banners_site_4.jpg""}}"">&nbsp;</div>
 <p><!-- #### slide 5 #### --></p>
-<div data-link=""http://poligrill.com.br/index.php/#"" data-src=""{{media url=""wysiwyg/Capa/slides/banners_site_5.jpg""}}"">&nbsp;</div>
+<div data-link=""http://mallbrasil.com.br/#"" data-src=""{{media url=""wysiwyg/Capa/slides/banners_site_5.jpg""}}"">&nbsp;</div>
 <p><!-- #### slide 6 #### --></p>
-<div data-link=""http://poligrill.com.br/#"" data-src=""{{media url=""wysiwyg/Capa/slides/banners_site_6.jpg""}}"">&nbsp;</div>
+<div data-link=""http://mallbrasil.com.br/#"" data-src=""{{media url=""wysiwyg/Capa/slides/banners_site_6.jpg""}}"">&nbsp;</div>
 </div>
 </div>
 </div>","2017-07-21 01:56:13","2017-07-22 20:03:47","1"
