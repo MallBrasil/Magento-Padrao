@@ -2,7 +2,7 @@
 <li><a href=""{{store direct_url=""about-magento-demo-store""}}"">About Us</a></li>
 <li><a href=""{{store direct_url=""customer-service""}}"">Customer Service</a></li>
 <li class=""last privacy""><a href=""{{store direct_url=""privacy-policy-cookie-restriction-mode""}}"">Privacy Policy</a></li>
-</ul>","2017-03-27 23:12:12","2017-07-22 21:18:59","0"
+</ul>","2017-03-27 23:12:12","2017-11-16 19:23:18","0"
 "2","Footer Links Company","footer_links_company","<div class=""links"">
 <div class=""block-title""><strong><span>Company</span></strong></div>
 <ul>
@@ -11,46 +11,45 @@
 <li><a href=""{{store url=""""}}customer-service/"">Customer Service</a></li>
 <li><a href=""{{store url=""""}}privacy-policy-cookie-restriction-mode/"">Privacy Policy</a></li>
 </ul>
-</div>","2017-03-27 23:12:12","2017-07-22 21:19:06","0"
-"3","Cookie restriction notice","cookie_restriction_notice_block","<p>This website requires cookies to provide all of its features. For more information on what data is contained in the cookies, please see our <a href=""{{store direct_url=""privacy-policy-cookie-restriction-mode""}}"">Privacy Policy page</a>. To accept cookies from this site, please click the Allow button below.</p>","2017-03-27 23:12:12","2017-07-22 21:19:11","1"
+</div>","2017-03-27 23:12:12","2017-11-16 19:23:25","0"
+"3","Cookie restriction notice","cookie_restriction_notice_block","<p>This website requires cookies to provide all of its features. For more information on what data is contained in the cookies, please see our <a href=""{{store direct_url=""privacy-policy-cookie-restriction-mode""}}"">Privacy Policy page</a>. To accept cookies from this site, please click the Allow button below.</p>","2017-03-27 23:12:12","2017-11-16 19:23:31","1"
 "4","Slider Capa BR","slider_1","<div class=""slideshow-container"">
 <ul class=""slideshow"">
-<li><img src=""{{media url=""wysiwyg/layout/Capa/Slides/BR/banner_whosting_BR.jpg""}}"" /></li>
-<li><img src=""{{media url=""wysiwyg/layout/Capa/Slides/BR/banner_VPS_BR.jpg""}}"" /></li>
-<li><img src=""{{media url=""wysiwyg/layout/Capa/Slides/BR/banner_dedicated_BR.jpg""}}"" /></li>
-<li><img src=""{{media url=""wysiwyg/layout/Capa/Slides/BR/banner_ERP_BR.jpg""}}"" /></li>
-<li><img src=""{{media url=""wysiwyg/layout/Capa/Slides/BR/banner_developer_BR.jpg""}}"" /></li>
+<li><img src=""{{media url=""wysiwyg/Capa/slides/banners_site_1.jpg""}}"" alt="""" /></li>
+<li><img src=""{{media url=""wysiwyg/Capa/slides/banners_site_2.jpg""}}"" alt="""" /></li>
+<li><img src=""{{media url=""wysiwyg/Capa/slides/banners_site_3jpg""}}"" alt="""" /></li>
+<li><img src=""{{media url=""wysiwyg/Capa/slides/banners_site_4.jpg""}}"" alt="""" /></li>
+
 </ul>
-<!-- //pager off <div class=""slideshow-pager"">&nbsp;</div> --> <span class=""slideshow-prev"">&nbsp;</span> <span class=""slideshow-next"">&nbsp;</span></div>","2017-03-28 02:18:49","2017-08-09 00:38:39","1"
+<!-- //pager off <div class=""slideshow-pager"">&nbsp;</div> --> <span class=""slideshow-prev"">&nbsp;</span> <span class=""slideshow-next"">&nbsp;</span></div>","2017-03-28 02:18:49","2017-11-16 19:25:20","1"
 "5","Slider Capa EN","slider_1","<div class=""slideshow-container"">
 <ul class=""slideshow"">
-<li><img src=""{{media url=""wysiwyg/layout/Capa/Slides/EN/banner_whosting_EN.jpg""}}"" /></li>
-<li><img src=""{{media url=""wysiwyg/layout/Capa/Slides/EN/banner_VPS_EN.jpg""}}"" /></li>
-<li><img src=""{{media url=""wysiwyg/layout/Capa/Slides/EN/banner_dedicated_EN.jpg""}}"" /></li>
-<li><img src=""{{media url=""wysiwyg/layout/Capa/Slides/EN/banner_ERP_EN.jpg""}}"" /></li>
-<li><img src=""{{media url=""wysiwyg/layout/Capa/Slides/EN/banner_developer_EN.jpg""}}"" /></li>
+<li><img alt="""" src=""{{media url=""wysiwyg/Capa/slides/banners_site_1.jpg""}}"" /></li>
+<li><img alt="""" src=""{{media url=""wysiwyg/Capa/slides/banners_site_2.jpg""}}"" /></li>
+<li><img alt="""" src=""{{media url=""wysiwyg/Capa/slides/banners_site_3jpg""}}"" /></li>
+<li><img alt="""" src=""{{media url=""wysiwyg/Capa/slides/banners_site_4.jpg""}}"" /></li>
 </ul>
-<!-- //pager off <div class=""slideshow-pager"">&nbsp;</div> --> <span class=""slideshow-prev"">&nbsp;</span> <span class=""slideshow-next"">&nbsp;</span></div>","2017-03-28 15:23:56","2017-08-09 01:08:42","1"
+<!-- //pager off <div class=""slideshow-pager"">&nbsp;</div> --> <span class=""slideshow-prev"">&nbsp;</span> <span class=""slideshow-next"">&nbsp;</span></div>","2017-03-28 15:23:56","2017-11-16 19:25:51","1"
 "6","web block BR","web-block","<div class=""main-web"">
 <p class=""page-title category-title"">{{block type=""catalog/product_list"" name=""home.catalog.product.list"" products_count=""4"" column_count=""3"" category_id=""3"" template=""catalog/product/home.phtml""}}</p>
-</div>","2017-04-18 19:16:55","2017-08-09 05:48:16","1"
+</div>","2017-04-18 19:16:55","2017-11-16 19:26:34","1"
 "7","dev block br","dev-block","<div class=""main-web"">
 <p class=""page-title category-title"">{{block type=""catalog/product_list"" name=""home.catalog.product.list"" products_count=""1"" column_count=""1"" category_id=""6"" template=""catalog/product/home.phtml""}}</p>
 </div>","2017-06-20 12:50:47","2017-08-09 05:48:57","1"
 "8","ds block br","ds-block","<p>{{block type=""catalog/product_list"" name=""home.catalog.product.list"" products_count=""4"" column_count=""3"" category_id=""5"" template=""catalog/product/home.phtml""}}</p>","2017-06-20 12:51:27","2017-08-09 05:49:13","1"
 "9","vps block br","vps-block","<p>{{block type=""catalog/product_list"" name=""home.catalog.product.list"" products_count=""4"" column_count=""3"" category_id=""4"" template=""catalog/product/home.phtml""}}</p>","2017-06-20 12:52:44","2017-08-09 05:49:25","1"
 "10","erp block br","erp-block","<p>{{block type=""catalog/product_list"" name=""home.catalog.product.list"" products_count=""4"" column_count=""3"" category_id=""7"" template=""catalog/product/home.phtml""}}</p>","2017-06-20 12:53:26","2017-08-09 05:49:42","1"
-"12","afterbar","afterbar","<p><img alt="""" src=""{{media url=""wysiwyg/layout/Capa/afterbarBg.png""}}"" style=""display: block; margin-left: auto; margin-right: auto; width: 100%;"" /></p>","2016-06-19 22:04:17","2017-07-23 17:51:27","0"
-"16","Pagseguro Sidebar","pgto-left","<p><img alt="""" src=""{{media url=""wysiwyg/layout/Capa/banner-pagseguro4.png""}}"" width=""100%"" /></p>","2016-07-19 22:24:12","2017-07-23 13:43:29","1"
-"22","facebook fanpage","fb_fanpage","<div class=""links"">
+"12","afterbar","afterbar","<p><img src=""{{media url=""wysiwyg/Capa/afterbar-default.jpg""}}"" style=""display: block; margin-left: auto; margin-right: auto; width: 80%;"" /></p>","2016-06-19 22:04:17","2017-11-16 20:58:07","1"
+"16","Pagseguro Sidebar","pgto-left","<p><img alt="""" src=""{{media url=""wysiwyg/Capa/pagseguro2.png""}}"" /></p>","2016-07-19 22:24:12","2017-11-16 19:28:45","1"
+"22","Fanpage Rodapé","fb_fanpage","<div class=""links"">
 <div class=""block-title""><strong><span>Siga no Facebook</span></strong></div>
-<div class=""fb-page"" style=""text-align: center;"" data-href=""https://www.facebook.com/mallbrasil/"" data-small-header=""false""  data-adapt-container-width=""true"" data-hide-cover=""false"" data-show-facepile=""true""></div>
-</div>","2016-08-24 20:20:29","2017-07-24 01:46:45","1"
+<iframe frameborder=""0"" height=""500"" scrolling=""no"" src=""https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&amp;tabs=timeline&amp;width=340&amp;height=500&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId"" style=""border: none; overflow: hidden;"" width=""340""></iframe></div>","2016-08-24 20:20:29","2017-11-16 19:30:35","1"
 "23","Formas de Pagamento","payments_method","<div class=""links""><!-- #### Pagseguro ### -->
 <div class=""block-title""><strong><span>Formas de Pagamento</span></strong></div>
-<p><img src=""{{media url=""wysiwyg/layout/Capa/layout/bandeiras-pgto.png""}}"" style=""display: block; margin-left: auto; margin-right: auto;"" width=""250"" /></p>
+<p><img src=""{{media url=""wysiwyg/Capa/layout/bandeiras-pgto2.png""}}"" style=""display: block; margin-left: auto; margin-right: auto;"" width=""250"" /></p>
 <br /> <!-- #### Frete Correios #### -->
-<div class=""block-title""><strong><span>Trabalhamos com</span></strong></div>
+<div class=""block-title""><strong><span>Enviamos por</span></strong></div>
+<p><img src=""{{media url=""wysiwyg/Capa/layout/correios.png""}}"" style=""display: block; margin-left: auto; margin-right: auto;"" width=""250"" /></p>
 <!-- ####### table ######### -->
 <div style=""display: block;"">
 <table border=""0"" style=""border: 0px solid #595959; width: 100%; margin: 0px auto;"">
@@ -64,12 +63,12 @@
 </tbody>
 </table>
 </div>
-</div>","2017-07-21 01:54:31","2017-08-09 05:26:01","1"
+</div>","2017-07-21 01:54:31","2017-11-16 19:33:57","1"
 "24","Video Apresentação","video_block","<div style=""padding: 2%; background: url('http://poligrill.com.br/media/wysiwyg/Capa/layout/bkg_youtube.png') #212121; background-repeat: no-repeat; margin: 0 auto; background-size: cover; background-position: center;"">
 <table style=""margin-left: auto; margin-right: auto; border: none; width: 100%; max-width: 580px;"">
 <tbody>
 <tr>
-<td><iframe height=""350"" src=""http://www.youtube.com/embed/kCLuRIalE40"" style=""display: block; margin-left: auto; margin-right: auto; border: none; max-width: 580px;"" width=""100%""></iframe></td>
+<td><iframe frameborder=""0"" height=""315"" src=""https://www.youtube.com/embed/h-_gFbNF80s?rel=0&amp;controls=0&amp;showinfo=0"" width=""560""></iframe></td>
 </tr>
 <tr>
 <td style=""text-align: right; max-width: 580px;"">
@@ -79,7 +78,7 @@
 </tr>
 </tbody>
 </table>
-</div>","2017-07-21 01:21:15","2017-08-09 01:05:27","0"
+</div>","2017-07-21 01:21:15","2017-11-16 19:39:37","1"
 "25","Atendimento BR","footer_company","<div class=""links"">
 <div class=""block-title""><strong><span>Atendimento</span></strong></div>
 <!-- ####### table ######### -->
@@ -87,7 +86,7 @@
 <table border=""0"" style=""border: 0px solid #595959; width: 100%; margin: 0px auto;"">
 <tbody>
 <tr>
-<td style=""padding: 5px 10px 0; margin: auto; text-align: left;""><span style=""color: #c0c0c0;""><span style=""font-size: medium;""><img alt="""" src=""{{media url=""wysiwyg/layout/Capa/Email.png""}}"" style=""float: left; margin-left: 2px; margin-right: 2px;"" width=""20"" /><span style=""font-size: 12px;""><strong>&nbsp;contato@mallbrasil.com.br</strong></span></span></span></td>
+<td style=""padding: 5px 10px 0; margin: auto; text-align: left;""><span style=""color: #c0c0c0;""><span style=""font-size: medium;""><img alt="""" src=""{{media url=""wysiwyg/layout/Capa/Email.png""}}"" style=""float: left; margin-left: 2px; margin-right: 2px;"" width=""20"" /><span style=""font-size: 12px;""><strong>&nbsp;contato@empresa.com.br</strong></span></span></span></td>
 </tr>
 </tbody>
 </table>
@@ -97,7 +96,7 @@
 <table border=""0"" style=""border: 0px solid #595959; width: 100%; margin: 0px auto;"">
 <tbody>
 <tr>
-<td style=""padding: 0 10px; margin: auto; text-align: left;""><span style=""color: #c0c0c0; font-size: small;""><span style=""font-size: x-small;""><strong><img alt="""" src=""{{media url=""wysiwyg/layout/Capa/whatsapp.png""}}"" style=""float: left; margin-left: 2px; margin-right: 2px;"" width=""20"" /></strong><span style=""font-size: 12px;"">&nbsp;<span style=""display: inline-block;"">(19) 9 98164-6887</span>&nbsp;</span></span><br /></span></td>
+<td style=""padding: 0 10px; margin: auto; text-align: left;""><span style=""color: #c0c0c0; font-size: small;""><span style=""font-size: x-small;""><strong><img alt="""" src=""{{media url=""wysiwyg/layout/Capa/whatsapp.png""}}"" style=""float: left; margin-left: 2px; margin-right: 2px;"" width=""20"" /></strong><span style=""font-size: 12px;"">&nbsp;<span style=""display: inline-block;"">(11) 9 8765-4321</span>&nbsp;</span></span><br /></span></td>
 </tr>
 </tbody>
 </table>
@@ -107,7 +106,7 @@
 <table border=""0"" style=""border: 0px solid #595959; width: 100%; margin: 0px auto;"">
 <tbody>
 <tr>
-<td style=""padding: 0 10px; margin: auto; text-align: left;""><span style=""color: #c0c0c0; font-size: small;""><img alt="""" src=""{{media url=""wysiwyg/layout/Capa/telefone_1.png""}}"" style=""float: left; margin-left: 2px; margin-right: 2px;"" width=""20"" />&nbsp;<span style=""display: inline-block;"">(19) 3701-4810</span></span></td>
+<td style=""padding: 0 10px; margin: auto; text-align: left;""><span style=""color: #c0c0c0; font-size: small;""><img alt="""" src=""{{media url=""wysiwyg/layout/Capa/telefone_1.png""}}"" style=""float: left; margin-left: 2px; margin-right: 2px;"" width=""20"" />&nbsp;<span style=""display: inline-block;"">(11) 1111-2222</span></span></td>
 </tr>
 </tbody>
 </table>
@@ -126,12 +125,12 @@
 <br />
 <div class=""block-title""><strong><span>Empresa</span></strong></div>
 <ul>
-<li><a href=""{{store url=""""}}sobre/"">Sobre a MallBrasil</a></li>
+<li><a href=""{{store url=""""}}sobre/"">Sobre a Empresa</a></li>
 <li><a href=""{{store url=""""}}contato.html/"">Entre em contato</a></li>
 <li><a href=""{{store url=""""}}sac/"">Servi&ccedil;o ao Cliente</a></li>
 <li><a href=""{{store url=""""}}politica-de-privacidade/"">Privacidade e Seguran&ccedil;a</a></li>
 </ul>
-</div>","2016-09-21 02:12:39","2017-08-09 20:09:39","1"
+</div>","2016-09-21 02:12:39","2017-11-16 19:41:54","1"
 "26","selos","selo","<div class=""block block-subscribe"">
 <div class=""block-title""><strong><span>Servi&ccedil;os Especializados</span></strong></div>
 <br /> <!-- ####### table ######### -->
@@ -148,7 +147,7 @@
 </tbody>
 </table>
 </div>
-</div>","2017-07-21 01:57:07","2017-08-09 05:28:37","1"
+</div>","2017-07-21 01:57:07","2017-11-16 19:42:21","1"
 "27","Slider Capa CN","slider_1","<div class=""slideshow-container"">
 <ul class=""slideshow"">
 <li><img src=""{{media url=""wysiwyg/layout/Capa/Slides/CN/banner_whosting_CN.jpg""}}"" /></li>
@@ -208,7 +207,7 @@
 <p class=""switch-loja""><a href=""/brl/brasil""> Brasil</a> | <a href=""/usd/china""> 中國</a> | <a href=""/usd/spain""> Espa&ntilde;ol</a> | <a href=""/usd/italian""> Italia</a> | <a href=""/usd/french""> France</a> | <a href=""/usd/deutsch""> Deutschland</a> | <a href=""/usd/nederland""> Nederland</a> | <a href=""/usd/english"">English </a> |</p>
 </div>
 <div class=""mundi-icon""><img src=""/media/wysiwyg/layout/Capa/earth-md.png"" /></div>
-</address>","2017-08-07 15:14:10","2017-08-09 04:56:13","1"
+</address>","2017-08-07 15:14:10","2017-11-16 20:58:59","0"
 "34","web block US","web-block-us","<p>{{block type=""catalog/product_list"" name=""home.catalog.product.list"" products_count=""4"" column_count=""3"" category_id=""11"" template=""catalog/product/home.phtml""}}</p>","2017-08-08 01:24:34","2017-08-09 00:52:21","1"
 "35","dev block us","dev-block-us","<p>{{block type=""catalog/product_list"" name=""home.catalog.product.list"" products_count=""4"" column_count=""3"" category_id=""16"" template=""catalog/product/home.phtml""}}</p>","2017-08-08 01:26:57","2017-08-09 00:52:34","1"
 "36","ds block us","ds-block-us","<p>{{block type=""catalog/product_list"" name=""home.catalog.product.list"" products_count=""4"" column_count=""3"" category_id=""14"" template=""catalog/product/home.phtml""}}</p>","2017-08-08 01:28:08","2017-08-08 01:28:08","1"
@@ -736,3 +735,34 @@ le contact</a></li>
 </a></li>
 </ul>
 </div>","2017-08-09 06:04:32","2017-08-09 06:19:39","1"
+"53","Bloco de contato Header","contact_block","<div class=""contact_block"" style=""text-align: center;""><!-- ####### table ######### -->
+<div style=""display: inline-block;"">
+<table border=""0"" style=""border: 0px solid #595959; width: 100%; margin: 0px auto;"">
+<tbody>
+<tr>
+<td style=""padding: 10px; margin: auto; text-align: left;""><span style=""color: #222;""><span style=""font-size: medium;""><img alt="""" src=""{{media url=""wysiwyg/Capa/Email.png""}}"" style=""float: left; margin-left: 2px; margin-right: 2px;"" width=""20"" /><span style=""font-size: small;""><strong>&nbsp;contato@empresa.com.br</strong></span></span></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<span style=""font-size: small;""><!-- ####### table ######### --></span>
+<div style=""display: inline-block;"">
+<table border=""0"" style=""border: 0px solid #595959; width: 100%; margin: 0px auto;"">
+<tbody>
+<tr>
+<td style=""padding: 10px; margin: auto; text-align: left;""><span style=""color: #222; font-size: small;""><strong><img alt="""" src=""{{media url=""wysiwyg/Capa/whatsapp.png""}}"" style=""float: left; margin-left: 2px; margin-right: 2px;"" width=""20"" />&nbsp;<span style=""display: inline-block;"">(11) 9 8765-4321</span></strong>&nbsp;<br /></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- ####### table ######### -->
+<div style=""display: inline-block;"">
+<table border=""0"" style=""border: 0px solid #595959; width: 100%; margin: 0px auto;"">
+<tbody>
+<tr>
+<td style=""padding: 10px; margin: auto; text-align: left;""><span style=""color: #222;""><span style=""font-size: medium;""><img alt="""" src=""{{media url=""wysiwyg/Capa/telefone_1.png""}}"" style=""float: left; margin-left: 2px; margin-right: 2px;"" width=""20"" /><span style=""font-size: small;""><strong>&nbsp;<span style=""display: inline-block;"">(11) 1111-3333</span></strong></span></span></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>","2017-11-16 20:12:52","2017-11-16 20:12:52","1"

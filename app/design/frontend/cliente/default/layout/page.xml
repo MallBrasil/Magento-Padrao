@@ -155,24 +155,29 @@
                     <action method="setBlockId"><block_id>footer_company</block_id></action>
                 </block> 
                 
-                <block type="cms/block" name="pagseguro"  >
+                 <block type="cms/block" name="Pagamentos"  >
                     <action method="setTitle"><title>Pague ccom segurança</title></action>
-                    <action method="setBlockId"><block_id>pagseguro</block_id></action>
-                </block>
+                    <action method="setBlockId"><block_id>payments_method</block_id></action>
+                </block>    
                 
                 
 
-<block type="cms/block" name="fb_fanpage"  >
+                <block type="cms/block" name="fb_fanpage"  >
                     <action method="setTitle"><title>Siga-nos</title></action>
                     <action method="setBlockId"><block_id>fb_fanpage</block_id></action>
                 </block>
 
-<block type="cms/block" name="selo"  >
+                <block type="cms/block" name="selo"  >
                     <action method="setTitle"><title>Selos</title></action>
                     <action method="setBlockId"><block_id>selo</block_id></action>
                 </block> 
+                
                 <!-- This static block can be created and populated in admin. The footer_links cms block can be used as a starting point. -->
                 
+                
+                <block type="cms/block" name="footer.after" as="address">
+                    <action method="setBlockId"><block_id>switcher_store</block_id></action>
+                </block>
 
             </block>
 
@@ -184,9 +189,9 @@
 
         <block type="core/profiler" output="toHtml" name="core_profiler"/>
 
-<block type="cms/block" name="rodape" as="address">
-                    <action method="setBlockId"><block_id>rodape</block_id></action>
-                </block>
+            <block type="cms/block" name="rodape" as="address">
+                <action method="setBlockId"><block_id>rodape</block_id></action>
+            </block>
 
     </default>
 
