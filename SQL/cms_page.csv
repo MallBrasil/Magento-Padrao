@@ -1,22 +1,28 @@
-"1","404 Não Encontrada","one_column","Page keywords","Page description","no-route",NULL,"<div class=""page-title"">
-<h1><img height=""300"" src=""{{media url=""wysiwyg/Layout/PaginasInternas/404/404.png""}}"" style=""float: left;"" width=""352"" />Upa lel&ecirc;, n&atilde;o encontramos a pagina...</h1>
-</div>
-<dl><dt>A p&aacute;gina que voc&ecirc; solicitou n&atilde;o foi encontrada, e n&oacute;s temos um bom palpite por que.</dt><dt></dt></dl>
-<ul class=""disc"">
-<li style=""list-style: none;"">Se voc&ecirc; digitou o URL diretamente, verifique se a ortografia est&aacute; correta.</li>
-<li style=""list-style: none;"">Se voc&ecirc; clicou em um link para chegar aqui, o link est&aacute; desatualizado.</li>
-</ul>
-<dl><dt>O que voc&ecirc; pode fazer?</dt><dd>N&atilde;o tenha medo, a ajuda est&aacute; pr&oacute;xima! H&aacute; muitas maneiras de voc&ecirc; voltar a acompanhar a nossa loja.</dd><dd></dd></dl>
-<p><a href=""#"" onclick=""history.go(-1); return false;"">Voltar</a>&nbsp;para a pagina anterior.</p>
-<dl><dd>Use a barra de pesquisa na parte superior da p&aacute;gina para procurar seus produtos.</dd><dd>Acesse estes links para voltar no caminho certo!<br />
-<ul class=""disc"">
-<li style=""list-style: none;""><a href=""{{store url=""""}}"">Pagina inicial</a> <span class=""separator"">|</span> <a href=""{{store url=""customer/account""}}"">Minha Conta</a></li>
-</ul>
-</dd></dl>
-<p><img src=""{{media url=""wysiwyg/Layout/PaginasInternas/404/404_1_.png""}}"" style=""float: right;"" width=""150"" /></p>","2017-07-20 21:49:49","2017-07-21 00:55:59","1","0",NULL,NULL,NULL,NULL,NULL,NULL
-"2","Asturia Semi-Joias","one_column",NULL,NULL,"home",NULL,"<div class=""page-title"">
-<h3>Produtos</h3>
-</div>","2017-07-20 21:49:49","2017-07-22 19:53:20","1","0","##### Contacts Header block #######
+"1","404 Not Found 1","two_columns_right","Page keywords","Page description","no-route",NULL,"
+<div class=""page-title""><h1>Whoops, our bad...</h1></div>
+<dl>
+    <dt>The page you requested was not found, and we have a fine guess why.</dt>
+    <dd>
+        <ul class=""disc"">
+            <li>If you typed the URL directly, please make sure the spelling is correct.</li>
+            <li>If you clicked on a link to get here, the link is outdated.</li>
+        </ul>
+    </dd>
+</dl>
+<dl>
+    <dt>What can you do?</dt>
+    <dd>Have no fear, help is near! There are many ways you can get back on track with Magento Store.</dd>
+    <dd>
+        <ul class=""disc"">
+            <li><a href=""#"" onclick=""history.go(-1); return false;"">Go back</a> to the previous page.</li>
+            <li>Use the search bar at the top of the page to search for your products.</li>
+            <li>Follow these links to get you back on track!<br /><a href=""{{store url=""""}}"">Store Home</a>
+            <span class=""separator"">|</span> <a href=""{{store url=""customer/account""}}"">My Account</a></li>
+        </ul>
+    </dd>
+</dl>
+","2017-03-27 23:12:12","2017-03-27 23:12:12","1","0",NULL,NULL,NULL,NULL,NULL,NULL
+"2","MallBrasil | Soluções em Web","one_column","hospedagem profissional. hospedagem de sites, webhosting, servidor para site, vps, servidor dedicado, magento, e-commerce",NULL,"capa",NULL,"<p class=""page-title category-title"">{{block type=""catalog/product_list"" name=""home.catalog.product.list"" products_count=""4"" column_count=""3"" category_id=""2"" template=""catalog/product/home.phtml""}}</p>","2017-03-27 23:12:12","2017-08-09 00:31:42","1","0","##### banner block #######
 <reference name=""header"">
 <block type=""cms/block"" name=""contact_block"" before=""logo"">
 <action method=""setBlockId""><block_id>contact_block</block_id></action>
@@ -27,41 +33,26 @@
     <action method=""setBannersliderId""><bannerslider_id>1</bannerslider_id></action>
 </block>
 
-##### Slider Block pos header  #######
+##### banner blockheader  #######
 <reference name=""header"">
     <block type=""cms/block"" name=""slider_1"">
         <!--
             The content of this block is taken from the database by its block_id.
             You can manage it in admin CMS -> Static Blocks
         -->
-
-        <!--
-            ###### Slider Block #############
-        -->
-
         <action method=""setBlockId""><block_id>slider_1</block_id></action>
     </block>
-        <!--
-            ###### afterbar Block #############
-        -->
+
 <block type=""cms/block"" name=""afterbar"" before=""cms_video_block"">
 <action method=""setBlockId""><block_id>afterbar</block_id></action>
 </block>
-        <!--
-            ###### Video Block #############
-        -->
+
+
 
 <block type=""cms/block"" name=""video_block"" after=""cms_afterbar"">
 <action method=""setBlockId""><block_id>video_block</block_id></action>
 </block>
- 
 
-        <!--
-            ###### Banner Blocks Static #############
-        -->
-<block type=""cms/block"" name=""banner_block"" after=""cms_video_block"">
-<action method=""setBlockId""><block_id>banner_block</block_id></action>
-</block>
 
 </reference>
 
@@ -86,10 +77,10 @@
 </reference>
 
 
-<!--
-###### antigo padrao ########## 
 
-<reference name=""content"">
+<!-- ################## Originals ############ -->
+
+<!--<reference name=""content"">
         <block type=""catalog/product_new"" name=""home.catalog.product.new"" alias=""product_new"" template=""catalog/product/new.phtml"" after=""cms_page"">
             <action method=""addPriceBlockType"">
                 <type>bundle</type>
@@ -151,7 +142,7 @@ sit amet aliquet lectus dolor et quam. Pellentesque consequat luctus purus.</str
 <p>To all of you, from all of us at Magento Store - Thank you and Happy eCommerce!</p>
 <p style=""line-height:1.2em;""><strong style=""font:italic 2em Georgia, serif;"">John Doe</strong><br />
 <small>Some important guy</small></p></div>
-</div>","2017-07-20 21:49:49","2017-07-20 21:49:49","1","0",NULL,NULL,NULL,NULL,NULL,NULL
+</div>","2017-03-27 23:12:12","2017-03-27 23:12:12","1","0",NULL,NULL,NULL,NULL,NULL,NULL
 "4","Customer Service","three_columns",NULL,NULL,"customer-service",NULL,"<div class=""page-title"">
 <h1>Customer Service</h1>
 </div>
@@ -221,7 +212,7 @@ faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorpe
  Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
  Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec,
  justo.</dd>
-</dl>","2017-07-20 21:49:49","2017-07-20 21:49:49","1","0",NULL,NULL,NULL,NULL,NULL,NULL
+</dl>","2017-03-27 23:12:12","2017-03-27 23:12:12","1","0",NULL,NULL,NULL,NULL,NULL,NULL
 "5","Enable Cookies","one_column",NULL,NULL,"enable-cookies",NULL,"<div class=""std"">
     <ul class=""messages"">
         <li class=""notice-msg"">
@@ -344,7 +335,7 @@ faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorpe
     </ol>
     <p class=""a-top""><a href=""#top"">Back to Top</a></p>
 </div>
-","2017-07-20 21:49:49","2017-07-20 21:49:49","1","0",NULL,NULL,NULL,NULL,NULL,NULL
+","2017-03-27 23:12:12","2017-03-27 23:12:12","1","0",NULL,NULL,NULL,NULL,NULL,NULL
 "6","Privacy Policy","one_column",NULL,NULL,"privacy-policy-cookie-restriction-mode","Privacy Policy","<p style=""color: #ff0000; font-weight: bold; font-size: 13px"">
     Please replace this text with you Privacy Policy.
     Please add any additional cookies your website uses below (e.g., Google Analytics)
@@ -560,38 +551,599 @@ faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorpe
             <td>The number of items in your Wishlist.</td>
         </tr>
     </tbody>
-</table>","2017-07-20 21:49:49","2017-07-20 21:49:49","1","0",NULL,NULL,NULL,NULL,NULL,NULL
-"8","Entre em contato com a Asturia","one_column",NULL,NULL,"contato",NULL,"<div style=""width: 100%;"">
-<div style=""width: 60%; display: inline-block; min-width: 300px; margin: 1%; padding: 10px;""><iframe height=""450"" src=""https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83361.96830964634!2d-47.45927932947489!3d-22.57486473016198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c88055b6df0dc3%3A0x1b0ef5f339809ecd!2sLimeira%2C+SP!5e0!3m2!1spt-BR!2sbr!4v1471607106458"" style=""border: 0;"" width=""100%""></iframe>
-<div style=""padding: 10px; background: #ededed;"">
-<div style=""width: 20%; border-right: 1px solid #ddd; display: inline-block;"">
-<p style=""margin: 0; background: #ededed;""><strong>Sede</strong>:&nbsp;Limeira - SP</p>
-</div>
-<div style=""width: 70%; display: inline-block; padding: 10px; vertical-align: top; text-align: left;"">Telefones:&nbsp;
-<div>
-<table border=""0"">
-<tbody>
-<tr>
-<td style=""text-align: left;""><span><strong><img alt="""" src=""http://poligrill.com.br/media/wysiwyg/Capa/whatsapp.png"" style=""float: left;"" width=""20"" />&nbsp;<span>(19) 9 8287-0034</span></strong>&nbsp;<br /></span></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div>
-<table border=""0"">
-<tbody>
-<tr>
-<td style=""text-align: left;""><span><span><img alt="""" src=""http://poligrill.com.br/media/wysiwyg/Capa/telefone_1.png"" style=""float: left;"" width=""20"" /><span><strong>&nbsp;<span>(19) 3701-4441</span></strong></span></span></span></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
-<div style=""width: 36%; display: inline-block; min-width: 300px; margin: 1%; padding: 10px; background: #ededed; position: relative; float: right;"">
-<p>{{block type=""core/template"" name=""contact.form"" template=""contacts/form.phtml""}}</p>
-<hr />
-<p style=""text-align: center;"">&nbsp;De segunda a sexta:&nbsp;9h &agrave;s 12h e das 13h &agrave;s 17h</p>
-</div>
-</div>","2016-01-10 16:57:58","2017-07-22 19:53:34","1","0",NULL,NULL,NULL,NULL,NULL,NULL
+</table>","2017-03-27 23:12:12","2017-03-27 23:12:12","1","0",NULL,NULL,NULL,NULL,NULL,NULL
+"7","MallBrasil | Web Solutions","one_column",NULL,NULL,"home-en",NULL,"<p>{{block type=""catalog/product_list"" name=""home.catalog.product.list"" products_count=""4"" column_count=""3"" category_id=""10"" template=""catalog/product/home.phtml""}}</p>","2017-08-07 23:52:46","2017-08-09 00:34:06","1","0","##### banner block #######
+<reference name=""header"">
+<block type=""cms/block"" name=""contact_block"" before=""logo"">
+<action method=""setBlockId""><block_id>contact_block</block_id></action>
+</block>
+</reference>
+
+<block type=""bannerslider/default"" name=""bannerslider.bannerslider"" template=""bannerslider/bannerslider.phtml"">
+    <action method=""setBannersliderId""><bannerslider_id>1</bannerslider_id></action>
+</block>
+
+##### banner blockheader  #######
+<reference name=""header"">
+    <block type=""cms/block"" name=""slider_1"">
+        <!--
+            The content of this block is taken from the database by its block_id.
+            You can manage it in admin CMS -> Static Blocks
+        -->
+        <action method=""setBlockId""><block_id>slider_1</block_id></action>
+    </block>
+
+<block type=""cms/block"" name=""afterbar"" before=""cms_video_block"">
+<action method=""setBlockId""><block_id>afterbar</block_id></action>
+</block>
+
+
+
+<block type=""cms/block"" name=""video_block"" after=""cms_afterbar"">
+<action method=""setBlockId""><block_id>video_block</block_id></action>
+</block>
+
+
+</reference>
+
+##### sidebar #######
+
+<reference name=""left"">
+            <block type=""catalog/layer_view"" name=""catalog.leftnav"" before=""-"" template=""catalog/layer/view.phtml""/>
+        </reference>
+
+##### content #######
+<reference name=""content"">
+
+<block type=""cms/block"" name=""social_capa"" after=""product_list"">
+<action method=""setBlockId""><block_id>social_capa</block_id></action>
+</block>
+
+</reference>
+
+##### footer #######
+<reference name=""footer"">
+
+</reference>
+
+
+
+<!-- ################## Originals ############ -->
+
+<!--<reference name=""content"">
+        <block type=""catalog/product_new"" name=""home.catalog.product.new"" alias=""product_new"" template=""catalog/product/new.phtml"" after=""cms_page"">
+            <action method=""addPriceBlockType"">
+                <type>bundle</type>
+                <block>bundle/catalog_product_price</block>
+                <template>bundle/catalog/product/price.phtml</template>
+            </action>
+        </block>
+        <block type=""reports/product_viewed"" name=""home.reports.product.viewed"" alias=""product_viewed"" template=""reports/home_product_viewed.phtml"" after=""product_new"">
+            <action method=""addPriceBlockType"">
+                <type>bundle</type>
+                <block>bundle/catalog_product_price</block>
+                <template>bundle/catalog/product/price.phtml</template>
+            </action>
+        </block>
+        <block type=""reports/product_compared"" name=""home.reports.product.compared"" template=""reports/home_product_compared.phtml"" after=""product_viewed"">
+            <action method=""addPriceBlockType"">
+                <type>bundle</type>
+                <block>bundle/catalog_product_price</block>
+                <template>bundle/catalog/product/price.phtml</template>
+            </action>
+        </block>
+    </reference>
+    <reference name=""right"">
+        <action method=""unsetChild""><alias>right.reports.product.viewed</alias></action>
+        <action method=""unsetChild""><alias>right.reports.product.compared</alias></action>
+    </reference>-->",NULL,NULL,NULL,NULL,NULL
+"8","MallBrasil | 網絡解決方案","one_column",NULL,NULL,"home-cn",NULL,"<p>{{block type=""catalog/product_list"" name=""home.catalog.product.list"" products_count=""4"" column_count=""3"" category_id=""10"" template=""catalog/product/home.phtml""}}</p>","2017-08-08 23:52:46","2017-08-09 01:07:29","1","0","##### banner block #######
+<reference name=""header"">
+<block type=""cms/block"" name=""contact_block"" before=""logo"">
+<action method=""setBlockId""><block_id>contact_block</block_id></action>
+</block>
+</reference>
+
+<block type=""bannerslider/default"" name=""bannerslider.bannerslider"" template=""bannerslider/bannerslider.phtml"">
+    <action method=""setBannersliderId""><bannerslider_id>1</bannerslider_id></action>
+</block>
+
+##### banner blockheader  #######
+<reference name=""header"">
+    <block type=""cms/block"" name=""slider_1"">
+        <!--
+            The content of this block is taken from the database by its block_id.
+            You can manage it in admin CMS -> Static Blocks
+        -->
+        <action method=""setBlockId""><block_id>slider_1</block_id></action>
+    </block>
+
+<block type=""cms/block"" name=""afterbar"" before=""cms_video_block"">
+<action method=""setBlockId""><block_id>afterbar</block_id></action>
+</block>
+
+
+
+<block type=""cms/block"" name=""video_block"" after=""cms_afterbar"">
+<action method=""setBlockId""><block_id>video_block</block_id></action>
+</block>
+
+
+</reference>
+
+##### sidebar #######
+
+<reference name=""left"">
+            <block type=""catalog/layer_view"" name=""catalog.leftnav"" before=""-"" template=""catalog/layer/view.phtml""/>
+        </reference>
+
+##### content #######
+<reference name=""content"">
+
+<block type=""cms/block"" name=""social_capa"" after=""product_list"">
+<action method=""setBlockId""><block_id>social_capa</block_id></action>
+</block>
+
+</reference>
+
+##### footer #######
+<reference name=""footer"">
+
+</reference>
+
+
+
+<!-- ################## Originals ############ -->
+
+<!--<reference name=""content"">
+        <block type=""catalog/product_new"" name=""home.catalog.product.new"" alias=""product_new"" template=""catalog/product/new.phtml"" after=""cms_page"">
+            <action method=""addPriceBlockType"">
+                <type>bundle</type>
+                <block>bundle/catalog_product_price</block>
+                <template>bundle/catalog/product/price.phtml</template>
+            </action>
+        </block>
+        <block type=""reports/product_viewed"" name=""home.reports.product.viewed"" alias=""product_viewed"" template=""reports/home_product_viewed.phtml"" after=""product_new"">
+            <action method=""addPriceBlockType"">
+                <type>bundle</type>
+                <block>bundle/catalog_product_price</block>
+                <template>bundle/catalog/product/price.phtml</template>
+            </action>
+        </block>
+        <block type=""reports/product_compared"" name=""home.reports.product.compared"" template=""reports/home_product_compared.phtml"" after=""product_viewed"">
+            <action method=""addPriceBlockType"">
+                <type>bundle</type>
+                <block>bundle/catalog_product_price</block>
+                <template>bundle/catalog/product/price.phtml</template>
+            </action>
+        </block>
+    </reference>
+    <reference name=""right"">
+        <action method=""unsetChild""><alias>right.reports.product.viewed</alias></action>
+        <action method=""unsetChild""><alias>right.reports.product.compared</alias></action>
+    </reference>-->","mallbras/home","one_column",NULL,NULL,NULL
+"9","MallBrasil | Web Oplossingen","one_column",NULL,NULL,"home-nl",NULL,"<p>{{block type=""catalog/product_list"" name=""home.catalog.product.list"" products_count=""4"" column_count=""3"" category_id=""10"" template=""catalog/product/home.phtml""}}</p>","2017-08-09 23:52:46","2017-08-09 00:36:22","1","0","##### banner block #######
+<reference name=""header"">
+<block type=""cms/block"" name=""contact_block"" before=""logo"">
+<action method=""setBlockId""><block_id>contact_block</block_id></action>
+</block>
+</reference>
+
+<block type=""bannerslider/default"" name=""bannerslider.bannerslider"" template=""bannerslider/bannerslider.phtml"">
+    <action method=""setBannersliderId""><bannerslider_id>1</bannerslider_id></action>
+</block>
+
+##### banner blockheader  #######
+<reference name=""header"">
+    <block type=""cms/block"" name=""slider_1"">
+        <!--
+            The content of this block is taken from the database by its block_id.
+            You can manage it in admin CMS -> Static Blocks
+        -->
+        <action method=""setBlockId""><block_id>slider_1</block_id></action>
+    </block>
+
+<block type=""cms/block"" name=""afterbar"" before=""cms_video_block"">
+<action method=""setBlockId""><block_id>afterbar</block_id></action>
+</block>
+
+
+
+<block type=""cms/block"" name=""video_block"" after=""cms_afterbar"">
+<action method=""setBlockId""><block_id>video_block</block_id></action>
+</block>
+
+
+</reference>
+
+##### sidebar #######
+
+<reference name=""left"">
+            <block type=""catalog/layer_view"" name=""catalog.leftnav"" before=""-"" template=""catalog/layer/view.phtml""/>
+        </reference>
+
+##### content #######
+<reference name=""content"">
+
+<block type=""cms/block"" name=""social_capa"" after=""product_list"">
+<action method=""setBlockId""><block_id>social_capa</block_id></action>
+</block>
+
+</reference>
+
+##### footer #######
+<reference name=""footer"">
+
+</reference>
+
+
+
+<!-- ################## Originals ############ -->
+
+<!--<reference name=""content"">
+        <block type=""catalog/product_new"" name=""home.catalog.product.new"" alias=""product_new"" template=""catalog/product/new.phtml"" after=""cms_page"">
+            <action method=""addPriceBlockType"">
+                <type>bundle</type>
+                <block>bundle/catalog_product_price</block>
+                <template>bundle/catalog/product/price.phtml</template>
+            </action>
+        </block>
+        <block type=""reports/product_viewed"" name=""home.reports.product.viewed"" alias=""product_viewed"" template=""reports/home_product_viewed.phtml"" after=""product_new"">
+            <action method=""addPriceBlockType"">
+                <type>bundle</type>
+                <block>bundle/catalog_product_price</block>
+                <template>bundle/catalog/product/price.phtml</template>
+            </action>
+        </block>
+        <block type=""reports/product_compared"" name=""home.reports.product.compared"" template=""reports/home_product_compared.phtml"" after=""product_viewed"">
+            <action method=""addPriceBlockType"">
+                <type>bundle</type>
+                <block>bundle/catalog_product_price</block>
+                <template>bundle/catalog/product/price.phtml</template>
+            </action>
+        </block>
+    </reference>
+    <reference name=""right"">
+        <action method=""unsetChild""><alias>right.reports.product.viewed</alias></action>
+        <action method=""unsetChild""><alias>right.reports.product.compared</alias></action>
+    </reference>-->",NULL,NULL,NULL,NULL,NULL
+"10","MallBrasil | Soluciones Web","one_column",NULL,NULL,"home-es",NULL,"<p>{{block type=""catalog/product_list"" name=""home.catalog.product.list"" products_count=""4"" column_count=""3"" category_id=""10"" template=""catalog/product/home.phtml""}}</p>","2017-08-10 23:52:46","2017-08-09 00:34:37","1","0","##### banner block #######
+<reference name=""header"">
+<block type=""cms/block"" name=""contact_block"" before=""logo"">
+<action method=""setBlockId""><block_id>contact_block</block_id></action>
+</block>
+</reference>
+
+<block type=""bannerslider/default"" name=""bannerslider.bannerslider"" template=""bannerslider/bannerslider.phtml"">
+    <action method=""setBannersliderId""><bannerslider_id>1</bannerslider_id></action>
+</block>
+
+##### banner blockheader  #######
+<reference name=""header"">
+    <block type=""cms/block"" name=""slider_1"">
+        <!--
+            The content of this block is taken from the database by its block_id.
+            You can manage it in admin CMS -> Static Blocks
+        -->
+        <action method=""setBlockId""><block_id>slider_1</block_id></action>
+    </block>
+
+<block type=""cms/block"" name=""afterbar"" before=""cms_video_block"">
+<action method=""setBlockId""><block_id>afterbar</block_id></action>
+</block>
+
+
+
+<block type=""cms/block"" name=""video_block"" after=""cms_afterbar"">
+<action method=""setBlockId""><block_id>video_block</block_id></action>
+</block>
+
+
+</reference>
+
+##### sidebar #######
+
+<reference name=""left"">
+            <block type=""catalog/layer_view"" name=""catalog.leftnav"" before=""-"" template=""catalog/layer/view.phtml""/>
+        </reference>
+
+##### content #######
+<reference name=""content"">
+
+<block type=""cms/block"" name=""social_capa"" after=""product_list"">
+<action method=""setBlockId""><block_id>social_capa</block_id></action>
+</block>
+
+</reference>
+
+##### footer #######
+<reference name=""footer"">
+
+</reference>
+
+
+
+<!-- ################## Originals ############ -->
+
+<!--<reference name=""content"">
+        <block type=""catalog/product_new"" name=""home.catalog.product.new"" alias=""product_new"" template=""catalog/product/new.phtml"" after=""cms_page"">
+            <action method=""addPriceBlockType"">
+                <type>bundle</type>
+                <block>bundle/catalog_product_price</block>
+                <template>bundle/catalog/product/price.phtml</template>
+            </action>
+        </block>
+        <block type=""reports/product_viewed"" name=""home.reports.product.viewed"" alias=""product_viewed"" template=""reports/home_product_viewed.phtml"" after=""product_new"">
+            <action method=""addPriceBlockType"">
+                <type>bundle</type>
+                <block>bundle/catalog_product_price</block>
+                <template>bundle/catalog/product/price.phtml</template>
+            </action>
+        </block>
+        <block type=""reports/product_compared"" name=""home.reports.product.compared"" template=""reports/home_product_compared.phtml"" after=""product_viewed"">
+            <action method=""addPriceBlockType"">
+                <type>bundle</type>
+                <block>bundle/catalog_product_price</block>
+                <template>bundle/catalog/product/price.phtml</template>
+            </action>
+        </block>
+    </reference>
+    <reference name=""right"">
+        <action method=""unsetChild""><alias>right.reports.product.viewed</alias></action>
+        <action method=""unsetChild""><alias>right.reports.product.compared</alias></action>
+    </reference>-->",NULL,NULL,NULL,NULL,NULL
+"11","MallBrasil | Weblösungen","one_column",NULL,NULL,"home-de",NULL,"<p>{{block type=""catalog/product_list"" name=""home.catalog.product.list"" products_count=""4"" column_count=""3"" category_id=""10"" template=""catalog/product/home.phtml""}}</p>","2017-08-11 23:52:46","2017-08-09 00:33:57","1","0","##### banner block #######
+<reference name=""header"">
+<block type=""cms/block"" name=""contact_block"" before=""logo"">
+<action method=""setBlockId""><block_id>contact_block</block_id></action>
+</block>
+</reference>
+
+<block type=""bannerslider/default"" name=""bannerslider.bannerslider"" template=""bannerslider/bannerslider.phtml"">
+    <action method=""setBannersliderId""><bannerslider_id>1</bannerslider_id></action>
+</block>
+
+##### banner blockheader  #######
+<reference name=""header"">
+    <block type=""cms/block"" name=""slider_1"">
+        <!--
+            The content of this block is taken from the database by its block_id.
+            You can manage it in admin CMS -> Static Blocks
+        -->
+        <action method=""setBlockId""><block_id>slider_1</block_id></action>
+    </block>
+
+<block type=""cms/block"" name=""afterbar"" before=""cms_video_block"">
+<action method=""setBlockId""><block_id>afterbar</block_id></action>
+</block>
+
+
+
+<block type=""cms/block"" name=""video_block"" after=""cms_afterbar"">
+<action method=""setBlockId""><block_id>video_block</block_id></action>
+</block>
+
+
+</reference>
+
+##### sidebar #######
+
+<reference name=""left"">
+            <block type=""catalog/layer_view"" name=""catalog.leftnav"" before=""-"" template=""catalog/layer/view.phtml""/>
+        </reference>
+
+##### content #######
+<reference name=""content"">
+
+<block type=""cms/block"" name=""social_capa"" after=""product_list"">
+<action method=""setBlockId""><block_id>social_capa</block_id></action>
+</block>
+
+</reference>
+
+##### footer #######
+<reference name=""footer"">
+
+</reference>
+
+
+
+<!-- ################## Originals ############ -->
+
+<!--<reference name=""content"">
+        <block type=""catalog/product_new"" name=""home.catalog.product.new"" alias=""product_new"" template=""catalog/product/new.phtml"" after=""cms_page"">
+            <action method=""addPriceBlockType"">
+                <type>bundle</type>
+                <block>bundle/catalog_product_price</block>
+                <template>bundle/catalog/product/price.phtml</template>
+            </action>
+        </block>
+        <block type=""reports/product_viewed"" name=""home.reports.product.viewed"" alias=""product_viewed"" template=""reports/home_product_viewed.phtml"" after=""product_new"">
+            <action method=""addPriceBlockType"">
+                <type>bundle</type>
+                <block>bundle/catalog_product_price</block>
+                <template>bundle/catalog/product/price.phtml</template>
+            </action>
+        </block>
+        <block type=""reports/product_compared"" name=""home.reports.product.compared"" template=""reports/home_product_compared.phtml"" after=""product_viewed"">
+            <action method=""addPriceBlockType"">
+                <type>bundle</type>
+                <block>bundle/catalog_product_price</block>
+                <template>bundle/catalog/product/price.phtml</template>
+            </action>
+        </block>
+    </reference>
+    <reference name=""right"">
+        <action method=""unsetChild""><alias>right.reports.product.viewed</alias></action>
+        <action method=""unsetChild""><alias>right.reports.product.compared</alias></action>
+    </reference>-->",NULL,NULL,NULL,NULL,NULL
+"12","MallBrasil | Solutions Web","one_column",NULL,NULL,"home-fr",NULL,"<p>{{block type=""catalog/product_list"" name=""home.catalog.product.list"" products_count=""4"" column_count=""3"" category_id=""10"" template=""catalog/product/home.phtml""}}</p>","2017-08-12 23:52:46","2017-08-09 00:35:13","1","0","##### banner block #######
+<reference name=""header"">
+<block type=""cms/block"" name=""contact_block"" before=""logo"">
+<action method=""setBlockId""><block_id>contact_block</block_id></action>
+</block>
+</reference>
+
+<block type=""bannerslider/default"" name=""bannerslider.bannerslider"" template=""bannerslider/bannerslider.phtml"">
+    <action method=""setBannersliderId""><bannerslider_id>1</bannerslider_id></action>
+</block>
+
+##### banner blockheader  #######
+<reference name=""header"">
+    <block type=""cms/block"" name=""slider_1"">
+        <!--
+            The content of this block is taken from the database by its block_id.
+            You can manage it in admin CMS -> Static Blocks
+        -->
+        <action method=""setBlockId""><block_id>slider_1</block_id></action>
+    </block>
+
+<block type=""cms/block"" name=""afterbar"" before=""cms_video_block"">
+<action method=""setBlockId""><block_id>afterbar</block_id></action>
+</block>
+
+
+
+<block type=""cms/block"" name=""video_block"" after=""cms_afterbar"">
+<action method=""setBlockId""><block_id>video_block</block_id></action>
+</block>
+
+
+</reference>
+
+##### sidebar #######
+
+<reference name=""left"">
+            <block type=""catalog/layer_view"" name=""catalog.leftnav"" before=""-"" template=""catalog/layer/view.phtml""/>
+        </reference>
+
+##### content #######
+<reference name=""content"">
+
+<block type=""cms/block"" name=""social_capa"" after=""product_list"">
+<action method=""setBlockId""><block_id>social_capa</block_id></action>
+</block>
+
+</reference>
+
+##### footer #######
+<reference name=""footer"">
+
+</reference>
+
+
+
+<!-- ################## Originals ############ -->
+
+<!--<reference name=""content"">
+        <block type=""catalog/product_new"" name=""home.catalog.product.new"" alias=""product_new"" template=""catalog/product/new.phtml"" after=""cms_page"">
+            <action method=""addPriceBlockType"">
+                <type>bundle</type>
+                <block>bundle/catalog_product_price</block>
+                <template>bundle/catalog/product/price.phtml</template>
+            </action>
+        </block>
+        <block type=""reports/product_viewed"" name=""home.reports.product.viewed"" alias=""product_viewed"" template=""reports/home_product_viewed.phtml"" after=""product_new"">
+            <action method=""addPriceBlockType"">
+                <type>bundle</type>
+                <block>bundle/catalog_product_price</block>
+                <template>bundle/catalog/product/price.phtml</template>
+            </action>
+        </block>
+        <block type=""reports/product_compared"" name=""home.reports.product.compared"" template=""reports/home_product_compared.phtml"" after=""product_viewed"">
+            <action method=""addPriceBlockType"">
+                <type>bundle</type>
+                <block>bundle/catalog_product_price</block>
+                <template>bundle/catalog/product/price.phtml</template>
+            </action>
+        </block>
+    </reference>
+    <reference name=""right"">
+        <action method=""unsetChild""><alias>right.reports.product.viewed</alias></action>
+        <action method=""unsetChild""><alias>right.reports.product.compared</alias></action>
+    </reference>-->",NULL,NULL,NULL,NULL,NULL
+"13","MallBrasil | Soluzioni Web","one_column",NULL,NULL,"home-it",NULL,"<p>{{block type=""catalog/product_list"" name=""home.catalog.product.list"" products_count=""4"" column_count=""3"" category_id=""10"" template=""catalog/product/home.phtml""}}</p>","2017-08-13 23:52:46","2017-08-09 00:35:45","1","0","##### banner block #######
+<reference name=""header"">
+<block type=""cms/block"" name=""contact_block"" before=""logo"">
+<action method=""setBlockId""><block_id>contact_block</block_id></action>
+</block>
+</reference>
+
+<block type=""bannerslider/default"" name=""bannerslider.bannerslider"" template=""bannerslider/bannerslider.phtml"">
+    <action method=""setBannersliderId""><bannerslider_id>1</bannerslider_id></action>
+</block>
+
+##### banner blockheader  #######
+<reference name=""header"">
+    <block type=""cms/block"" name=""slider_1"">
+        <!--
+            The content of this block is taken from the database by its block_id.
+            You can manage it in admin CMS -> Static Blocks
+        -->
+        <action method=""setBlockId""><block_id>slider_1</block_id></action>
+    </block>
+
+<block type=""cms/block"" name=""afterbar"" before=""cms_video_block"">
+<action method=""setBlockId""><block_id>afterbar</block_id></action>
+</block>
+
+
+
+<block type=""cms/block"" name=""video_block"" after=""cms_afterbar"">
+<action method=""setBlockId""><block_id>video_block</block_id></action>
+</block>
+
+
+</reference>
+
+##### sidebar #######
+
+<reference name=""left"">
+            <block type=""catalog/layer_view"" name=""catalog.leftnav"" before=""-"" template=""catalog/layer/view.phtml""/>
+        </reference>
+
+##### content #######
+<reference name=""content"">
+
+<block type=""cms/block"" name=""social_capa"" after=""product_list"">
+<action method=""setBlockId""><block_id>social_capa</block_id></action>
+</block>
+
+</reference>
+
+##### footer #######
+<reference name=""footer"">
+
+</reference>
+
+
+
+<!-- ################## Originals ############ -->
+
+<!--<reference name=""content"">
+        <block type=""catalog/product_new"" name=""home.catalog.product.new"" alias=""product_new"" template=""catalog/product/new.phtml"" after=""cms_page"">
+            <action method=""addPriceBlockType"">
+                <type>bundle</type>
+                <block>bundle/catalog_product_price</block>
+                <template>bundle/catalog/product/price.phtml</template>
+            </action>
+        </block>
+        <block type=""reports/product_viewed"" name=""home.reports.product.viewed"" alias=""product_viewed"" template=""reports/home_product_viewed.phtml"" after=""product_new"">
+            <action method=""addPriceBlockType"">
+                <type>bundle</type>
+                <block>bundle/catalog_product_price</block>
+                <template>bundle/catalog/product/price.phtml</template>
+            </action>
+        </block>
+        <block type=""reports/product_compared"" name=""home.reports.product.compared"" template=""reports/home_product_compared.phtml"" after=""product_viewed"">
+            <action method=""addPriceBlockType"">
+                <type>bundle</type>
+                <block>bundle/catalog_product_price</block>
+                <template>bundle/catalog/product/price.phtml</template>
+            </action>
+        </block>
+    </reference>
+    <reference name=""right"">
+        <action method=""unsetChild""><alias>right.reports.product.viewed</alias></action>
+        <action method=""unsetChild""><alias>right.reports.product.compared</alias></action>
+    </reference>-->",NULL,NULL,NULL,NULL,NULL
